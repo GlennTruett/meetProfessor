@@ -43,7 +43,7 @@ int main()
 			system("pause\n");
 			cout << "\nIf you will notice there are numbers in front of each professor's name. Please enter a number\n from 1 through 10 to guess who you will be meeting.\n";
 			cin >> choice;
-			//choice--;
+			
 
 			if (choice-- == pnum) {
 				cout << "You guessed correctly\n" << "\nThe professor you will be meeting is " << Professor[pnum] << endl;
