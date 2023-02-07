@@ -15,7 +15,7 @@ int sound();
 
 int main()
 {
-	char again = ;
+	char again;
 
 	do {
 		srand(static_cast<unsigned int>(time(NULL))); //seed random number generator
